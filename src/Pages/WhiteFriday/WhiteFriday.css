@@ -1,0 +1,66 @@
+.WhiteFriday {
+  background-color: #ffaf06;
+}
+
+.WhiteFriday img {
+  max-width: 100%;
+}
+
+.WhiteFriday .WhiteFriday_time {
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 400px) {
+  .WhiteFriday .WhiteFriday_time {
+    flex-wrap: wrap;
+  }
+
+  .WhiteFriday .WhiteFriday_time li {
+    width: 40%;
+  }
+}
+
+.WhiteFriday .WhiteFriday_time li {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 50px;
+  text-align: center;
+  font-weight: 600;
+  color: #666;
+  box-shadow: 0 0 10px #fff;
+}
+
+@media (max-width: 767px) {
+  .WhiteFriday .WhiteFriday_time li {
+    padding: 20px 30px;
+    border-radius: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .WhiteFriday .WhiteFriday_time li {
+    padding: 10px 20px;
+    border-radius: 30px;
+  }
+}
+
+.WhiteFriday .WhiteFriday_time li span {
+  color: var(--main-color);
+  display: block;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .WhiteFriday .WhiteFriday_time li span {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .WhiteFriday .WhiteFriday_time li span {
+    font-size: 25px;
+  }
+}
